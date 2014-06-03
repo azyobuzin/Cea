@@ -17,8 +17,7 @@ namespace Cea
             var cp = ClassPool.getDefault();
             var cc = cp.makeClass("test.MyClass");
             cc.addField(CtField.make("int num;", cc));
-            var bytes = cc.toBytecode();
-            Debugger.Break();
+            cc.writeFile();
         }
     }
 }
