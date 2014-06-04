@@ -165,8 +165,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CeaCompiler.cs" />
+    <Compile Include="CompilationResult.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ClassInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
