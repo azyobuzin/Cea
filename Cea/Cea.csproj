@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="asm">
+      <HintPath>..\asm.dll</HintPath>
+    </Reference>
     <Reference Include="IKVM.AWT.WinForms, Version=7.3.4830.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.AWT.WinForms.dll</HintPath>
@@ -134,21 +137,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.Runtime.JNI.dll</HintPath>
     </Reference>
-    <Reference Include="javassist, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\javassist.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeAnalysis">
       <HintPath>..\packages\Microsoft.CodeAnalysis.Common.0.6.4033103-beta\lib\net45\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp">
       <HintPath>..\packages\Microsoft.CodeAnalysis.CSharp.0.6.4033103-beta\lib\net45\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.CSharp.Workspaces">
-      <HintPath>..\packages\Microsoft.CodeAnalysis.CSharp.Workspaces.0.6.4033103-beta\lib\net45\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.Workspaces">
-      <HintPath>..\packages\Microsoft.CodeAnalysis.Workspaces.Common.0.6.4033103-beta\lib\net45\Microsoft.CodeAnalysis.Workspaces.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable">

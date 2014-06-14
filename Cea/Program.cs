@@ -16,31 +16,6 @@ namespace Cea
     {
         static void Main(string[] args)
         {
-            /*var cp = ClassPool.getDefault();
-            var cc = cp.makeClass("test.MyClass");
-            cc.addField(CtField.make("int num;", cc));
-            cc.addMethod(CtNewMethod.make("public void Do() { this.Do(); }", cc));
-            cc.writeFile();*/
-            /*var test = CSharpSyntaxTree.ParseText(@"
-using java.lang;
-
-namespace A
-{
-    namespace B
-    {
-        public class C
-        {
-            public static void main(string[] args, int test)
-            {
-                System.@out.println(@""\soresore"");
-                System.@out.println(args[0]);
-                var test = args[0].equals(""aa"") == false;
-            }
-        }
-    }
-}
-");*/
-
             const string code = @"
 namespace net.azyobuzi
 {

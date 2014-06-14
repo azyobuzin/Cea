@@ -154,4 +154,7 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
-/javassist.dll
+
+# Downloaded libraries
+/asm.dll
+/asm*.jar
